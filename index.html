@@ -110,7 +110,7 @@
                         <td>' + (feature.properties['FOOD FUNDS'] !== null ? Autolinker.link(String(feature.properties['FOOD FUNDS'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['IMAGE'] !== null ? '<img src="' + String(feature.properties['IMAGE']) + '" style="width: 250px;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['IMAGE'] !== null ? '<img src="./' + String(feature.properties['IMAGE']) + '" style="width: 250px;">' : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400, maxWidth: 800});           
@@ -276,7 +276,7 @@
                         <td>' + (feature.properties['TOTAL DEAT'] !== null ? Autolinker.link(String(feature.properties['TOTAL DEAT'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['IMAGE'] !== null ? '<img src="' + String(feature.properties['IMAGE']) + '" style="width: 250px;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['IMAGE'] !== null ? '<img src="./' + String(feature.properties['IMAGE']) + '" style="width: 250px;">' : '') + '</td>\
                     </tr>\
                 </table>';
             
