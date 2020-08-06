@@ -63,6 +63,6 @@ table {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .info{
-        font-size: smaller;
+        font-size: 8px;
     }
   }
