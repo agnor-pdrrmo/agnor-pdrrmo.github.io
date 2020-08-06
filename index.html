@@ -26,7 +26,7 @@
     </head>
     <body>
         <div id="map">
-        </div>
+        </div>       
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
         <script src="js/leaflet.rotatedMarker.js"></script>
@@ -351,7 +351,7 @@
             exclusive       	: false,
             collapsed           :false
         };
-        var control = L.Control.styledLayerControl(baseMaps, overlays, options);
+        var control = L.Control.styledLayerControl(baseMaps, overlays,options);
 	    map.addControl(control);
         
         var measureControl = new L.Control.Measure({
@@ -381,5 +381,6 @@
         
        
         </script>
+        <script src="js/index.js"></script>
     </body>
 </html>
