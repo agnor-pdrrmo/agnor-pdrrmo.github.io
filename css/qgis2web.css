@@ -1,68 +1,73 @@
-
 #map {
-    background-color: #ffffff
+  background-color: #ffffff;
 }
 th {
-    text-align: left;
-    vertical-align: top;
+  text-align: left;
+  vertical-align: top;
 }
 .info {
-    padding: 6px 8px;
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .info h2 {
-    margin: 0 0 5px;
-    color: #777;
+  margin: 0 0 5px;
+  color: #777;
 }
 .leaflet-container {
-    background: #fff;
-    padding-right: 10px;
+  background: #fff;
+  padding-right: 10px;
 }
 .leaflet-popup-content {
-    width:auto !important;
-    padding-right:10px;
+  width: auto !important;
+  padding-right: 10px;
 }
 .leaflet-tooltip {
-    background: none;
-    box-shadow: none;
-    border: none;
+  background: none;
+  box-shadow: none;
+  border: none;
 }
-.leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
-    border: 0px;
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+  border: 0px;
 }
 
 .marker-properties th {
-    width: 33.3333%;
-    min-width: 100px;
-    white-space: nowrap;
-    border: 1px solid #ccc;
+  width: 33.3333%;
+  min-width: 100px;
+  white-space: nowrap;
+  border: 1px solid #ccc;
 }
 .marker-properties td {
-    width: 60%;
+  width: 60%;
 }
 table td {
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.lgu_name{
-    font-size: 25px;
-}
-
-.leaflet-control-layers-overlays img{
-    position: relative;
-    top: 8px;
+.lgu_name {
+  font-size: 25px;
 }
 
+.leaflet-control-layers-overlays img {
+  position: relative;
+  top: 8px;
+}
+
+.dataAsOff {
+  font-size: 12px;
+  position: relative;
+  top: -7px;
+}
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .info{
-        font-size: 8px;
-    }
+  /* For mobile phones: */
+  .info {
+    font-size: 8px;
   }
+}
