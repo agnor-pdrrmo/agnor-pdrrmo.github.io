@@ -430,7 +430,7 @@
                     <tr>\
                         <td colspan="2">' +
           (feature.properties["IMAGE"] !== null
-            ? '<img src="' +
+            ? '<img onclick="createModal()" src="' +
               String(feature.properties["IMAGE"]) +
               '" style="width: 250px;">'
             : "") +
@@ -542,6 +542,14 @@
 
       map.addControl(searchControl);
     </script>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+
     <script src="js/index.js"></script>
   </body>
 </html>
