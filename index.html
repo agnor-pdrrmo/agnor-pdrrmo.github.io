@@ -235,7 +235,7 @@
           (feature.properties["LGU"] !== null
             ? Autolinker.link(String(feature.properties["LGU"]))
             : "") +
-          '</strong></br><span class="dataAsOff">(Data as of : Oct 11, 2020)</span></td>\
+          '</strong></br><span class="dataAsOff">(Data as of : Oct 21, 2020)</span></td>\
                     </tr>\
                     <tr>\
                         <th scope="row">PUM-ONGOING 14-DAY HOME QUARANTINE</th>\
@@ -278,14 +278,16 @@
           '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>SUSPECTED: SEVERE CASES (ADMITTED)</strong><br />' +
+                          <th scope="row">SUSPECTED: SEVERE CASES (ADMITTED)</th>\
+                          <td>' +
           (feature.properties["SUSPECTE_1"] !== null
             ? Autolinker.link(String(feature.properties["SUSPECTE_1"]))
             : "") +
           '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>SUSPECTED: CRITICAL CASES (ADMITTED)</strong><br />' +
+                          <th scope="row">SUSPECTED: CRITICAL CASES (ADMITTED)</th>\
+                          <td>' +
           (feature.properties["SUSPECTE_2"] !== null
             ? Autolinker.link(String(feature.properties["SUSPECTE_2"]))
             : "") +
